@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="assets/styles/main.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crios Bootstrap</title>
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="src/img/logo.png" alt="">
+      </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">
+            Home
+            <span class="sr-only">
+              (current)
+            </span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+            About
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">
+            Contacts
+          </a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+    </div>
+  </nav>
+
+
+
+  <header class="header d-flex flex-column justify-content-center">
+    <div class="container">
+      <h1 class="display-2">Bootstrap 4</h1>
+      <p class="lead">
+        Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus.
+      </p>
+    </div>
+  </header>
+
+  <main class="main">
+    <div class="container">
+      <div class="row">
+        <div class="col-3">
+
+          <div class="card">
+          <img src="src/img/author.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">About me</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+          
+        </div>
+
+
+        <h3>Subscribe</h3>
+        <div class="block">
+          <form method="post" action="/">
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <button type="submit" class="btn btn-success btn-block">Submit</button>
+          </form>
+        </div>
+
+      </div>
+
+
+      <div class="col-6">
+        <div class="card">
+          <img src="src/img/photo-1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Post title</h5>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est 
+              laborum.
+            </p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            <a href="#" class="btn btn-sm btn-outline-primary">Read more</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="src/img/photo-2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Post title</h5>
+          <p class="card-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est 
+            laborum.
+          </p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          <a href="#" class="btn btn-sm btn-outline-primary">Read more</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="src/img/photo-3.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Post title</h5>
+          <p class="card-text">
+            <span data-toggle="tooltip" data-placement="right" title="Tooltip on right">asdasd</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est 
+            laborum.
+            </p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          <a href="#" class="btn btn-sm btn-outline-primary">Read more</a>
+          </div>
+      </div>
+
+        <nav aria-label="Page navigation example">
+          <ul class="pagination">
+            <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+            <li class="page-item active"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">Next</a></li>
+          </ul>
+        </nav>
+      </div>
+
+        <div class="col-3">
+          <div class="list-group mb-4">
+            <a href="#" class="list-group-item list-group-item-action active">
+              Sectoin 1
+            </a>
+            <a href="#" class="list-group-item list-group-item-action">Sectoin 2</a>
+            <a href="#" class="list-group-item list-group-item-action">Sectoin 3</a>
+            <a href="#" class="list-group-item list-group-item-action">Sectoin 4</a>
+            <a href="#" class="list-group-item list-group-item-action">Sectoin 5</a>
+          </div>
+
+          <h3>Tags Cloud</h3>
+          <div class="block">
+            <a class="badge badge-pill badge-info" href="#">travel</a>
+            <a class="badge badge-pill badge-info" href="#">rest</a>
+            <a class="badge badge-pill badge-info" href="#">mountain</a>
+            <a class="badge badge-pill badge-info" href="#">world</a>
+            <a class="badge badge-pill badge-info" href="#">nature</a>
+            <a class="badge badge-pill badge-info" href="#">photos</a>
+          </div>
+
+          <h3>Gallery</h3>
+          <div class="block">
+            <div class="row no-gutters">
+              <div class="col-6">
+                <img src="src/img/gallery-1.jpg" alt="">
+              </div>
+              <div class="col-6">
+                <img src="src/img/gallery-2.jpg" alt="">
+              </div>
+              <div class="col-6">
+                <img src="src/img/gallery-3.jpg" alt="">
+              </div>
+              <div class="col-6">
+                <img src="src/img/gallery-4.jpg" alt="">
+              </div>
+              <div class="col-6">
+                <img src="src/img/gallery-5.jpg" alt="">
+              </div>
+              <div class="col-6">
+                <img src="src/img/gallery-6.jpg" alt="">
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </main>
+
+
+
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-3">
+          <h3>Traveler's blog</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste possimus animi
+             molestias atque saepe sapiente tempora, omnis et eos optio doloremque vitae cupiditate 
+             velit eius quia perferendis debitis dicta? Reiciendis.</p>
+        </div>
+
+        <div class="col-3">
+          <h3>Contacts</h3>
+          <p> <b>Twitter, Inc.</b>, 1355 Market Street, Suite 900, San Francisco, CA 94103 U.S.A.</p>
+        </div>
+        <div class="col-3">
+          <h3>Navigation</h3>
+          <nav class="nav flex-column">
+            <a class="nav-link active" href="#">Home</a>
+            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="#">Link</a>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="copyright">
+    <div class="container">
+      <img src="assets/img/logo.png" alt="logo">
+      <div>Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+    </div>
+  </div>
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
